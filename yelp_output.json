@@ -16,100 +16,12 @@
 							"value": 576
 						}
 					]
-				},
-				{
-					"name": "No Call to Action",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 9
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 576
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Entertainment",
-			"children": [
-				{
-					"name": "No Call to Action",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 9
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 576
-						}
-					]
-				},
-				{
-					"name": "No Call to Action",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 9
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 576
-						}
-					]
 				}
 			]
 		},
 		{
 			"name": "Health",
 			"children": [
-				{
-					"name": "No Call to Action",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 76
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 1945
-						}
-					]
-				},
-				{
-					"name": "No Call to Action",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 76
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 1945
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Health",
-			"children": [
-				{
-					"name": "No Call to Action",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 76
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 1945
-						}
-					]
-				},
 				{
 					"name": "No Call to Action",
 					"children": [
@@ -140,100 +52,12 @@
 							"value": 4325
 						}
 					]
-				},
-				{
-					"name": "No Call to Action",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 36
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 4325
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Other",
-			"children": [
-				{
-					"name": "No Call to Action",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 36
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 4325
-						}
-					]
-				},
-				{
-					"name": "No Call to Action",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 36
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 4325
-						}
-					]
 				}
 			]
 		},
 		{
 			"name": "Restaurant",
 			"children": [
-				{
-					"name": "No Call to Action",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 13706
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 2517
-						}
-					]
-				},
-				{
-					"name": "No Call to Action",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 13706
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 2517
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Restaurant",
-			"children": [
-				{
-					"name": "No Call to Action",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 13706
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 2517
-						}
-					]
-				},
 				{
 					"name": "No Call to Action",
 					"children": [
@@ -264,100 +88,12 @@
 							"value": 6198
 						}
 					]
-				},
-				{
-					"name": "No Call to Action",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 179
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 6198
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Services",
-			"children": [
-				{
-					"name": "No Call to Action",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 179
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 6198
-						}
-					]
-				},
-				{
-					"name": "No Call to Action",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 179
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 6198
-						}
-					]
 				}
 			]
 		},
 		{
 			"name": "Shopping",
 			"children": [
-				{
-					"name": "No Call to Action",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 2204
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 4868
-						}
-					]
-				},
-				{
-					"name": "No Call to Action",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 2204
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 4868
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Shopping",
-			"children": [
-				{
-					"name": "No Call to Action",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 2204
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 4868
-						}
-					]
-				},
 				{
 					"name": "No Call to Action",
 					"children": [
