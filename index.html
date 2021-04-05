@@ -133,10 +133,16 @@
                 .attr('d', arc)
 				.attr("display", function (d) { return d.depth ? null : "none"; })
                 .style("fill", d => {
+				if (d.data.name == 'No delivery or virtual'){
+				   return "rgb(255,0,0)";
+				}
+			    if (d.data.name == 'Delivery or virtual'){
+				   return "rgb(0,255,0)";
+				}
                 while (d.depth > 1){
                     d = d.parent;
 					}
-                return color(d.data.name);
+               return color(d.data.name);
             }).attr("fill-opacity", d => d.y1 > 0.5 ? (d.children ? 0.6 : 0.4) : 0.8)
             ;
 
