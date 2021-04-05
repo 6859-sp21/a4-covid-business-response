@@ -63,7 +63,7 @@
         const y = d3.scaleLinear()
             .range([maxRadius*.1, maxRadius]);
 
-        const color = d3.scaleOrdinal(d3.schemeCategory20b); // Schemes: http://bl.ocks.org/emmasaunders/f4902478bcfa411c77a412c02087bed4
+        //const color = d3.scaleOrdinal(d3.schemeCategory20c); // Schemes: http://bl.ocks.org/emmasaunders/f4902478bcfa411c77a412c02087bed4
 
         const partition = d3.partition();
 
@@ -100,6 +100,7 @@
         const svg = d3.select('body').append('svg')
             .style('width', '100vw')
             .style('height', '100vh')
+            .style("font", "10px sans-serif")
             .attr('viewBox', `${-width / 2} ${-height / 2} ${width} ${height}`)
             .on('click', () => focusOn()); // Reset zoom on canvas click
 
@@ -111,7 +112,7 @@
 			
 			partition(root);
             const slice = svg.selectAll('path')
-                .data(root.descendants());
+                .data(root.descendants()); // .slice(1) to remove level 0
 				
             slice.exit().remove();
 
@@ -121,15 +122,24 @@
                     d3.event.stopPropagation();
                     focusOn(d);
                 });
-
+				
            // newSlice.append('title')
            //     .text(d => d.data.name + '\n' + formatNumber(d.value));
+		   
+		    const color = d3.scaleOrdinal().range(d3.quantize(d3.interpolateRainbow, nodeData.children.length + 1));
 
             newSlice.append('path')
                 .attr('class', 'main-arc')
                 .attr('d', arc)
 				.attr("display", function (d) { return d.depth ? null : "none"; })
-                .style("fill", function (d) { return color((d.children ? d : d.parent).data.name); });
+                .style("fill", d => {
+                while (d.depth > 1){
+                    d = d.parent;
+					}
+                return color(d.data.name);
+            }).attr("fill-opacity", d => d.y1 > 0.5 ? (d.children ? 0.6 : 0.4) : 0.8)
+            ;
+
 
             newSlice.append('path')
                 .attr('class', 'hidden-arc')
@@ -163,6 +173,7 @@
 			.append('option')
 			.text(function (d) { return d; }) // text showed in the menu
 			.attr("value", function (d) { return d; }) // corresponding value returned by the button
+
 
 
         function focusOn(d = { x0: 0, x1: 1, y0: 0, y1: 1 }) {
