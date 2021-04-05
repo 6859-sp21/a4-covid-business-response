@@ -1,9 +1,8 @@
 <head>
-/
     <style>
         body {
             font-family: Sans-serif;
-            font-size: 11px;
+            font-size: 14px;
         }
 
         .slice {
@@ -12,7 +11,7 @@
 
         .slice .main-arc {
             stroke: #fff;
-            stroke-width: 1px;
+            stroke-width: 0.5px;
         }
 
         .slice .hidden-arc {
@@ -44,7 +43,7 @@
         const y = d3.scaleSqrt()
             .range([maxRadius*.1, maxRadius]);
 
-        const color = d3.scaleOrdinal(d3.schemeCategory20);
+        const color = d3.scaleOrdinal(d3.schemeCategory20b); // Schemes: http://bl.ocks.org/emmasaunders/f4902478bcfa411c77a412c02087bed4
 
         const partition = d3.partition();
 
@@ -89,9 +88,9 @@
 
             root = d3.hierarchy(root);
             root.sum(d => d.value);
-
+			partition(root);
             const slice = svg.selectAll('g.slice')
-                .data(partition(root).descendants());
+                .data(root.descendants());
 
             slice.exit().remove();
 
@@ -107,8 +106,8 @@
 
             newSlice.append('path')
                 .attr('class', 'main-arc')
-                .style('fill', d => color((d.children ? d : d.parent).data.name))
-                .attr('d', arc);
+                .attr('d', arc)
+                .style("fill", function (d) { return color((d.children ? d : d.parent).data.name); });
 
             newSlice.append('path')
                 .attr('class', 'hidden-arc')
@@ -117,7 +116,7 @@
 
             const text = newSlice.append('text')
                 .attr('display', d => textFits(d) ? null : 'none');
-
+			/*
             // Add white contour
             text.append('textPath')
                 .attr('startOffset','50%')
@@ -127,7 +126,7 @@
                 .style('stroke', '#fff')
                 .style('stroke-width', 5)
                 .style('stroke-linejoin', 'round');
-
+			*/
             text.append('textPath')
                 .attr('startOffset','50%')
                 .attr('xlink:href', (_, i) => `#hiddenArc${i}` )

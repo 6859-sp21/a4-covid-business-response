@@ -1,0 +1,910 @@
+{
+	"name": "All",
+	"children": [
+		{
+			"name": "AB",
+			"children": [
+				{
+					"name": "Entertainment",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 2
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 112
+						}
+					]
+				},
+				{
+					"name": "Health",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 17
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 478
+						}
+					]
+				},
+				{
+					"name": "Other",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 14
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 860
+						}
+					]
+				},
+				{
+					"name": "Restaurant",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 2061
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 310
+						}
+					]
+				},
+				{
+					"name": "Services",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 33
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 1759
+						}
+					]
+				},
+				{
+					"name": "Shopping",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 368
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 1027
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "AZ",
+			"children": [
+				{
+					"name": "Entertainment",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 33
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 836
+						}
+					]
+				},
+				{
+					"name": "Health",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 187
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 7421
+						}
+					]
+				},
+				{
+					"name": "Other",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 19
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 5517
+						}
+					]
+				},
+				{
+					"name": "Restaurant",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 7365
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 514
+						}
+					]
+				},
+				{
+					"name": "Services",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 810
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 21284
+						}
+					]
+				},
+				{
+					"name": "Shopping",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 1490
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 4123
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "IL",
+			"children": [
+				{
+					"name": "Entertainment",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 2
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 23
+						}
+					]
+				},
+				{
+					"name": "Health",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 8
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 97
+						}
+					]
+				},
+				{
+					"name": "Other",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 1
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 193
+						}
+					]
+				},
+				{
+					"name": "Restaurant",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 427
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 34
+						}
+					]
+				},
+				{
+					"name": "Services",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 31
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 568
+						}
+					]
+				},
+				{
+					"name": "Shopping",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 62
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 152
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "NC",
+			"children": [
+				{
+					"name": "Entertainment",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 6
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 273
+						}
+					]
+				},
+				{
+					"name": "Health",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 77
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 1268
+						}
+					]
+				},
+				{
+					"name": "Other",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 7
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 1672
+						}
+					]
+				},
+				{
+					"name": "Restaurant",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 3124
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 193
+						}
+					]
+				},
+				{
+					"name": "Services",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 239
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 4607
+						}
+					]
+				},
+				{
+					"name": "Shopping",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 626
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 1396
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "NV",
+			"children": [
+				{
+					"name": "Entertainment",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 11
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 1009
+						}
+					]
+				},
+				{
+					"name": "Health",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 114
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 4046
+						}
+					]
+				},
+				{
+					"name": "Other",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 13
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 3572
+						}
+					]
+				},
+				{
+					"name": "Restaurant",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 4839
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 485
+						}
+					]
+				},
+				{
+					"name": "Services",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 472
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 12728
+						}
+					]
+				},
+				{
+					"name": "Shopping",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 1001
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 3002
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "OH",
+			"children": [
+				{
+					"name": "Entertainment",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 13
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 274
+						}
+					]
+				},
+				{
+					"name": "Health",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 102
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 900
+						}
+					]
+				},
+				{
+					"name": "Other",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 26
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 1743
+						}
+					]
+				},
+				{
+					"name": "Restaurant",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 4045
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 304
+						}
+					]
+				},
+				{
+					"name": "Services",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 211
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 4050
+						}
+					]
+				},
+				{
+					"name": "Shopping",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 639
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 1465
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "ON",
+			"children": [
+				{
+					"name": "Entertainment",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 9
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 475
+						}
+					]
+				},
+				{
+					"name": "Health",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 74
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 1783
+						}
+					]
+				},
+				{
+					"name": "Other",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 36
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 3612
+						}
+					]
+				},
+				{
+					"name": "Restaurant",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 9624
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 1463
+						}
+					]
+				},
+				{
+					"name": "Services",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 163
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 5644
+						}
+					]
+				},
+				{
+					"name": "Shopping",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 1912
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 3650
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "PA",
+			"children": [
+				{
+					"name": "Entertainment",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 7
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 183
+						}
+					]
+				},
+				{
+					"name": "Health",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 25
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 776
+						}
+					]
+				},
+				{
+					"name": "Other",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 18
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 1310
+						}
+					]
+				},
+				{
+					"name": "Restaurant",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 2780
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 232
+						}
+					]
+				},
+				{
+					"name": "Services",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 147
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 3046
+						}
+					]
+				},
+				{
+					"name": "Shopping",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 565
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 1131
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "QC",
+			"children": [
+				{
+					"name": "Entertainment",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 3
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 199
+						}
+					]
+				},
+				{
+					"name": "Health",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 14
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 217
+						}
+					]
+				},
+				{
+					"name": "Other",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 3
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 769
+						}
+					]
+				},
+				{
+					"name": "Restaurant",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 3374
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 1304
+						}
+					]
+				},
+				{
+					"name": "Services",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 47
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 853
+						}
+					]
+				},
+				{
+					"name": "Shopping",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 545
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 887
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "SC",
+			"children": [
+				{
+					"name": "Entertainment",
+					"children": [
+						{
+							"name": "No delivery or virtual",
+							"value": 14
+						}
+					]
+				},
+				{
+					"name": "Health",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 5
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 123
+						}
+					]
+				},
+				{
+					"name": "Other",
+					"children": [
+						{
+							"name": "No delivery or virtual",
+							"value": 142
+						}
+					]
+				},
+				{
+					"name": "Restaurant",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 283
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 14
+						}
+					]
+				},
+				{
+					"name": "Services",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 24
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 357
+						}
+					]
+				},
+				{
+					"name": "Shopping",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 68
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 84
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "WI",
+			"children": [
+				{
+					"name": "Entertainment",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 1
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 87
+						}
+					]
+				},
+				{
+					"name": "Health",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 12
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 331
+						}
+					]
+				},
+				{
+					"name": "Other",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 4
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 520
+						}
+					]
+				},
+				{
+					"name": "Restaurant",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 1095
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 90
+						}
+					]
+				},
+				{
+					"name": "Services",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 77
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 1542
+						}
+					]
+				},
+				{
+					"name": "Shopping",
+					"children": [
+						{
+							"name": "Delivery or virtual",
+							"value": 183
+						},
+						{
+							"name": "No delivery or virtual",
+							"value": 497
+						}
+					]
+				}
+			]
+		}
+	]
+}
