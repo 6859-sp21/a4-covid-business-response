@@ -57,7 +57,7 @@
 					</ul>
 				</div>
 				<div class="input-group-prepend">
-					<label class="input-group-text" for="inputGroupSelect01">Select State/Province</label>
+					<label class="input-group-text" for="inputGroupSelect01">Select Business Type</label>
 					<select class="custom-select" id="selectButton"></select>
 				</div>	
 			</div>
@@ -70,7 +70,6 @@
 </body>
     <script>
 	// Source: https://bl.ocks.org/vasturiano/12da9071095fbd4df434e60d52d2d58d
-	
         const width = window.innerWidth,
             height = window.innerHeight,
             maxRadius = (Math.min(width, height) / 2) - 5;
@@ -192,7 +191,7 @@
                 .text(d => d.data.name);
         });
 		
-		var allStates = ['AZ', 'IL', 'NC', 'NV', 'OH', 'ON', 'PA', 'QC']
+		var allStates = ['Health',' Restaurant', 'Services', 'Shopping', 'Other']
 		  d3.select("#selectButton")
 			.selectAll('myOptions')
 			.data(allStates)
