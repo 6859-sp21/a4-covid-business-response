@@ -67,6 +67,10 @@
 
 	</div>
 </div>
+
+Source: Yelp (March 2020)
+<br>
+Sunburst diagram inspired by <a href="https://bl.ocks.org/vasturiano/12da9071095fbd4df434e60d52d2d58d">Vasco Asturiano </a>
 </body>
     <script>
 	// Source: https://bl.ocks.org/vasturiano/12da9071095fbd4df434e60d52d2d58d
@@ -255,4 +259,14 @@
                 }
             });
 		}
+	function updateSunburst(){
+	var temp = 1;
+	}
+	var selectButton = d3.select("#selectButton")
+    .on('change', function(d) {
+        selectedMessages = Array.from(this.options)
+          .filter(function(option) { return option.selected })
+          .map(function(option) { return option.value; });
+       updateSunburst();
+     });
     </script>
