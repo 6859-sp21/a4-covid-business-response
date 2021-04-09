@@ -70,6 +70,8 @@
 
 Source: Yelp (March 2020)
 <br>
+By Felix Dumont and Taylor Facen (MIT 6.859)
+<br>
 Sunburst diagram inspired by <a href="https://bl.ocks.org/vasturiano/12da9071095fbd4df434e60d52d2d58d">Vasco Asturiano </a>
 </body>
     <script>
@@ -111,6 +113,14 @@ Sunburst diagram inspired by <a href="https://bl.ocks.org/vasturiano/12da9071095
             return path.toString();
         };
 
+		var div = d3.select("body").append("div")	
+			.attr("class", "tooltip")
+			.style("background-color", "white")
+			.style("border", "solid")
+			.style("border-width", "2px")
+			.style("border-radius", "5px")
+			.style("padding", "5px");
+
         const textFits = d => {
             const CHAR_SPACE = 6;
 
@@ -145,7 +155,19 @@ Sunburst diagram inspired by <a href="https://bl.ocks.org/vasturiano/12da9071095
                 .on('click', d => {
                     d3.event.stopPropagation();
                     focusOn(d);
-                });
+                }).on("mouseover", function(d) {		
+					div.transition()		
+						.duration(200)		
+						.style("opacity", .9);		
+					div.html(d.data.name)	
+						.style("left", (d3.event.pageX + 28) + "px")		
+						.style("top", (d3.event.pageY) + "px");	
+					})					
+				.on("mouseout", function(d) {		
+					div.transition()		
+						.duration(200)		
+						.style("opacity", 0);	
+				});;
 				
            // newSlice.append('title')
            //     .text(d => d.data.name + '\n' + formatNumber(d.value));
@@ -155,7 +177,7 @@ Sunburst diagram inspired by <a href="https://bl.ocks.org/vasturiano/12da9071095
             newSlice.append('path')
                 .attr('class', 'main-arc')
                 .attr('d', arc)
-				.attr("display", function (d) { return d.depth ? null : "none"; })
+				//.attr("display", function (d) { return d.depth ? null : "none"; }) // Determines color of "State/Province"
                 .style("fill", d => {
 				if (d.data.name == 'No delivery or virtual'){
 				   return "rgb(255,0,0)";
@@ -178,17 +200,7 @@ Sunburst diagram inspired by <a href="https://bl.ocks.org/vasturiano/12da9071095
 
             const text = newSlice.append('text')
                 .attr('display', d => textFits(d) ? null : 'none');
-			/*
-            // Add white contour
-            text.append('textPath')
-                .attr('startOffset','50%')
-                .attr('xlink:href', (_, i) => `#hiddenArc${i}` )
-                .text(d => d.data.name)
-                .style('fill', 'none')
-                .style('stroke', '#fff')
-                .style('stroke-width', 5)
-                .style('stroke-linejoin', 'round');
-			*/
+
             text.append('textPath')
                 .attr('startOffset','50%')
                 .attr('xlink:href', (_, i) => `#hiddenArc${i}` )
