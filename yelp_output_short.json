@@ -8,11 +8,11 @@
 					"name": "Health",
 					"children": [
 						{
-							"name": "Delivery or virtual/n2.0%",
+							"name": "Delivery or virtual",
 							"value": 187
 						},
 						{
-							"name": "No delivery or virtual/n98.0%",
+							"name": "No delivery or virtual",
 							"value": 7421
 						}
 					]
@@ -21,11 +21,11 @@
 					"name": "Other",
 					"children": [
 						{
-							"name": "Delivery or virtual/n1.0%",
+							"name": "Delivery or virtual",
 							"value": 38
 						},
 						{
-							"name": "No delivery or virtual/n99.0%",
+							"name": "No delivery or virtual",
 							"value": 6328
 						}
 					]
@@ -34,11 +34,11 @@
 					"name": "Restaurant",
 					"children": [
 						{
-							"name": "Delivery or virtual/n93.0%",
+							"name": "Delivery or virtual",
 							"value": 7365
 						},
 						{
-							"name": "No delivery or virtual/n7.0%",
+							"name": "No delivery or virtual",
 							"value": 514
 						}
 					]
@@ -47,11 +47,11 @@
 					"name": "Services",
 					"children": [
 						{
-							"name": "Delivery or virtual/n4.0%",
+							"name": "Delivery or virtual",
 							"value": 810
 						},
 						{
-							"name": "No delivery or virtual/n96.0%",
+							"name": "No delivery or virtual",
 							"value": 21284
 						}
 					]
@@ -60,11 +60,11 @@
 					"name": "Shopping",
 					"children": [
 						{
-							"name": "Delivery or virtual/n27.0%",
+							"name": "Delivery or virtual",
 							"value": 1504
 						},
 						{
-							"name": "No delivery or virtual/n73.0%",
+							"name": "No delivery or virtual",
 							"value": 4148
 						}
 					]
@@ -78,11 +78,11 @@
 					"name": "Health",
 					"children": [
 						{
-							"name": "Delivery or virtual/n6.0%",
+							"name": "Delivery or virtual",
 							"value": 77
 						},
 						{
-							"name": "No delivery or virtual/n94.0%",
+							"name": "No delivery or virtual",
 							"value": 1268
 						}
 					]
@@ -91,11 +91,11 @@
 					"name": "Other",
 					"children": [
 						{
-							"name": "Delivery or virtual/n0.0%",
+							"name": "Delivery or virtual",
 							"value": 7
 						},
 						{
-							"name": "No delivery or virtual/n100.0%",
+							"name": "No delivery or virtual",
 							"value": 1932
 						}
 					]
@@ -104,11 +104,11 @@
 					"name": "Restaurant",
 					"children": [
 						{
-							"name": "Delivery or virtual/n94.0%",
+							"name": "Delivery or virtual",
 							"value": 3124
 						},
 						{
-							"name": "No delivery or virtual/n6.0%",
+							"name": "No delivery or virtual",
 							"value": 193
 						}
 					]
@@ -117,11 +117,11 @@
 					"name": "Services",
 					"children": [
 						{
-							"name": "Delivery or virtual/n5.0%",
+							"name": "Delivery or virtual",
 							"value": 239
 						},
 						{
-							"name": "No delivery or virtual/n95.0%",
+							"name": "No delivery or virtual",
 							"value": 4607
 						}
 					]
@@ -130,11 +130,11 @@
 					"name": "Shopping",
 					"children": [
 						{
-							"name": "Delivery or virtual/n31.0%",
+							"name": "Delivery or virtual",
 							"value": 632
 						},
 						{
-							"name": "No delivery or virtual/n69.0%",
+							"name": "No delivery or virtual",
 							"value": 1409
 						}
 					]
@@ -148,11 +148,11 @@
 					"name": "Health",
 					"children": [
 						{
-							"name": "Delivery or virtual/n3.0%",
+							"name": "Delivery or virtual",
 							"value": 114
 						},
 						{
-							"name": "No delivery or virtual/n97.0%",
+							"name": "No delivery or virtual",
 							"value": 4046
 						}
 					]
@@ -161,11 +161,11 @@
 					"name": "Other",
 					"children": [
 						{
-							"name": "Delivery or virtual/n0.0%",
+							"name": "Delivery or virtual",
 							"value": 16
 						},
 						{
-							"name": "No delivery or virtual/n100.0%",
+							"name": "No delivery or virtual",
 							"value": 4550
 						}
 					]
@@ -174,11 +174,11 @@
 					"name": "Restaurant",
 					"children": [
 						{
-							"name": "Delivery or virtual/n91.0%",
+							"name": "Delivery or virtual",
 							"value": 4839
 						},
 						{
-							"name": "No delivery or virtual/n9.0%",
+							"name": "No delivery or virtual",
 							"value": 485
 						}
 					]
@@ -187,11 +187,11 @@
 					"name": "Services",
 					"children": [
 						{
-							"name": "Delivery or virtual/n4.0%",
+							"name": "Delivery or virtual",
 							"value": 472
 						},
 						{
-							"name": "No delivery or virtual/n96.0%",
+							"name": "No delivery or virtual",
 							"value": 12728
 						}
 					]
@@ -200,11 +200,11 @@
 					"name": "Shopping",
 					"children": [
 						{
-							"name": "Delivery or virtual/n25.0%",
+							"name": "Delivery or virtual",
 							"value": 1009
 						},
 						{
-							"name": "No delivery or virtual/n75.0%",
+							"name": "No delivery or virtual",
 							"value": 3033
 						}
 					]
@@ -218,11 +218,11 @@
 					"name": "Health",
 					"children": [
 						{
-							"name": "Delivery or virtual/n10.0%",
+							"name": "Delivery or virtual",
 							"value": 102
 						},
 						{
-							"name": "No delivery or virtual/n90.0%",
+							"name": "No delivery or virtual",
 							"value": 900
 						}
 					]
@@ -231,11 +231,11 @@
 					"name": "Other",
 					"children": [
 						{
-							"name": "Delivery or virtual/n1.0%",
+							"name": "Delivery or virtual",
 							"value": 28
 						},
 						{
-							"name": "No delivery or virtual/n99.0%",
+							"name": "No delivery or virtual",
 							"value": 2004
 						}
 					]
@@ -244,11 +244,11 @@
 					"name": "Restaurant",
 					"children": [
 						{
-							"name": "Delivery or virtual/n93.0%",
+							"name": "Delivery or virtual",
 							"value": 4045
 						},
 						{
-							"name": "No delivery or virtual/n7.0%",
+							"name": "No delivery or virtual",
 							"value": 304
 						}
 					]
@@ -257,11 +257,11 @@
 					"name": "Services",
 					"children": [
 						{
-							"name": "Delivery or virtual/n5.0%",
+							"name": "Delivery or virtual",
 							"value": 211
 						},
 						{
-							"name": "No delivery or virtual/n95.0%",
+							"name": "No delivery or virtual",
 							"value": 4050
 						}
 					]
@@ -270,11 +270,11 @@
 					"name": "Shopping",
 					"children": [
 						{
-							"name": "Delivery or virtual/n31.0%",
+							"name": "Delivery or virtual",
 							"value": 650
 						},
 						{
-							"name": "No delivery or virtual/n69.0%",
+							"name": "No delivery or virtual",
 							"value": 1478
 						}
 					]
@@ -288,11 +288,11 @@
 					"name": "Health",
 					"children": [
 						{
-							"name": "Delivery or virtual/n4.0%",
+							"name": "Delivery or virtual",
 							"value": 74
 						},
 						{
-							"name": "No delivery or virtual/n96.0%",
+							"name": "No delivery or virtual",
 							"value": 1783
 						}
 					]
@@ -301,11 +301,11 @@
 					"name": "Other",
 					"children": [
 						{
-							"name": "Delivery or virtual/n1.0%",
+							"name": "Delivery or virtual",
 							"value": 38
 						},
 						{
-							"name": "No delivery or virtual/n99.0%",
+							"name": "No delivery or virtual",
 							"value": 4064
 						}
 					]
@@ -314,11 +314,11 @@
 					"name": "Restaurant",
 					"children": [
 						{
-							"name": "Delivery or virtual/n87.0%",
+							"name": "Delivery or virtual",
 							"value": 9624
 						},
 						{
-							"name": "No delivery or virtual/n13.0%",
+							"name": "No delivery or virtual",
 							"value": 1463
 						}
 					]
@@ -327,11 +327,11 @@
 					"name": "Services",
 					"children": [
 						{
-							"name": "Delivery or virtual/n3.0%",
+							"name": "Delivery or virtual",
 							"value": 163
 						},
 						{
-							"name": "No delivery or virtual/n97.0%",
+							"name": "No delivery or virtual",
 							"value": 5644
 						}
 					]
@@ -340,11 +340,11 @@
 					"name": "Shopping",
 					"children": [
 						{
-							"name": "Delivery or virtual/n34.0%",
+							"name": "Delivery or virtual",
 							"value": 1919
 						},
 						{
-							"name": "No delivery or virtual/n66.0%",
+							"name": "No delivery or virtual",
 							"value": 3673
 						}
 					]
@@ -358,11 +358,11 @@
 					"name": "Health",
 					"children": [
 						{
-							"name": "Delivery or virtual/n3.0%",
+							"name": "Delivery or virtual",
 							"value": 25
 						},
 						{
-							"name": "No delivery or virtual/n97.0%",
+							"name": "No delivery or virtual",
 							"value": 776
 						}
 					]
@@ -371,11 +371,11 @@
 					"name": "Other",
 					"children": [
 						{
-							"name": "Delivery or virtual/n1.0%",
+							"name": "Delivery or virtual",
 							"value": 18
 						},
 						{
-							"name": "No delivery or virtual/n99.0%",
+							"name": "No delivery or virtual",
 							"value": 1476
 						}
 					]
@@ -384,11 +384,11 @@
 					"name": "Restaurant",
 					"children": [
 						{
-							"name": "Delivery or virtual/n92.0%",
+							"name": "Delivery or virtual",
 							"value": 2780
 						},
 						{
-							"name": "No delivery or virtual/n8.0%",
+							"name": "No delivery or virtual",
 							"value": 232
 						}
 					]
@@ -397,11 +397,11 @@
 					"name": "Services",
 					"children": [
 						{
-							"name": "Delivery or virtual/n5.0%",
+							"name": "Delivery or virtual",
 							"value": 147
 						},
 						{
-							"name": "No delivery or virtual/n95.0%",
+							"name": "No delivery or virtual",
 							"value": 3046
 						}
 					]
@@ -410,11 +410,11 @@
 					"name": "Shopping",
 					"children": [
 						{
-							"name": "Delivery or virtual/n33.0%",
+							"name": "Delivery or virtual",
 							"value": 572
 						},
 						{
-							"name": "No delivery or virtual/n67.0%",
+							"name": "No delivery or virtual",
 							"value": 1148
 						}
 					]
@@ -428,11 +428,11 @@
 					"name": "Health",
 					"children": [
 						{
-							"name": "Delivery or virtual/n6.0%",
+							"name": "Delivery or virtual",
 							"value": 14
 						},
 						{
-							"name": "No delivery or virtual/n94.0%",
+							"name": "No delivery or virtual",
 							"value": 217
 						}
 					]
@@ -441,11 +441,11 @@
 					"name": "Other",
 					"children": [
 						{
-							"name": "Delivery or virtual/n0.0%",
+							"name": "Delivery or virtual",
 							"value": 3
 						},
 						{
-							"name": "No delivery or virtual/n100.0%",
+							"name": "No delivery or virtual",
 							"value": 957
 						}
 					]
@@ -454,11 +454,11 @@
 					"name": "Restaurant",
 					"children": [
 						{
-							"name": "Delivery or virtual/n72.0%",
+							"name": "Delivery or virtual",
 							"value": 3374
 						},
 						{
-							"name": "No delivery or virtual/n28.0%",
+							"name": "No delivery or virtual",
 							"value": 1304
 						}
 					]
@@ -467,11 +467,11 @@
 					"name": "Services",
 					"children": [
 						{
-							"name": "Delivery or virtual/n5.0%",
+							"name": "Delivery or virtual",
 							"value": 47
 						},
 						{
-							"name": "No delivery or virtual/n95.0%",
+							"name": "No delivery or virtual",
 							"value": 853
 						}
 					]
@@ -480,11 +480,11 @@
 					"name": "Shopping",
 					"children": [
 						{
-							"name": "Delivery or virtual/n38.0%",
+							"name": "Delivery or virtual",
 							"value": 548
 						},
 						{
-							"name": "No delivery or virtual/n62.0%",
+							"name": "No delivery or virtual",
 							"value": 898
 						}
 					]
