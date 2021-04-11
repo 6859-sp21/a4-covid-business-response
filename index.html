@@ -60,6 +60,11 @@
 					<label class="input-group-text" for="inputGroupSelect01">Select Business Type</label>
 					<select class="custom-select" id="selectButton"></select>
 				</div>	
+				<br>
+				<i> Click on the chart to zoom in or out. </i>
+				<br>
+				<br> <b> Light outer colors</b> correspond to businesses without delivery or virtual services. <br> <b>Darker outer colors</b> represent businesses with delivery or virtual services.
+
 			</div>
 			<div class="col-8">
 				<div id="container-graph"></div>
@@ -67,10 +72,13 @@
 
 	</div>
 </div>
-
-Source: Yelp (March 2020)
+By Felix Dumont and Taylor Facen
 <br>
-By Felix Dumont and Taylor Facen (MIT 6.859)
+For MIT 6.859
+<br>
+Source: Yelp (March 2020);
+<br> The Yelp dataset is an academic sample across States / Businesses
+
 <br>
 Sunburst diagram inspired by <a href="https://bl.ocks.org/vasturiano/12da9071095fbd4df434e60d52d2d58d">Vasco Asturiano </a>
 </body>
@@ -179,17 +187,27 @@ Sunburst diagram inspired by <a href="https://bl.ocks.org/vasturiano/12da9071095
                 .attr('d', arc)
 				//.attr("display", function (d) { return d.depth ? null : "none"; }) // Determines color of "State/Province"
                 .style("fill", d => {
+				/*
 				if (d.data.name == 'No delivery or virtual'){
+				   console.log(color(d.data.name));
 				   return "rgb(255,0,0)";
 				}
 			    if (d.data.name == 'Delivery or virtual'){
 				   return "rgb(0,255,0)";
-				}
+				}  */
                 while (d.depth > 1){
                     d = d.parent;
 					}
+
                return color(d.data.name);
-            }).attr("fill-opacity", d => d.y1 > 0.5 ? (d.children ? 0.6 : 0.4) : 0.8)
+            }).attr("fill-opacity", d => {
+			if (d.data.name == 'No delivery or virtual'){
+				   return 0.2;
+				}
+			    if (d.data.name == 'Delivery or virtual'){
+				   return 0.4;
+				} 
+				return d.y1 > 0.5 ? (d.children ? 0.6 : 0.4) : 0.8 })
             ;
 
 

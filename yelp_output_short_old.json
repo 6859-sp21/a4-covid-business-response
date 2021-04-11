@@ -1,0 +1,495 @@
+{
+	"name": "State / Province",
+	"children": [
+		{
+			"name": "AZ",
+			"children": [
+				{
+					"name": "Health",
+					"children": [
+						{
+							"name": "Delivery or virtual/n2.0%",
+							"value": 187
+						},
+						{
+							"name": "No delivery or virtual/n98.0%",
+							"value": 7421
+						}
+					]
+				},
+				{
+					"name": "Other",
+					"children": [
+						{
+							"name": "Delivery or virtual/n1.0%",
+							"value": 38
+						},
+						{
+							"name": "No delivery or virtual/n99.0%",
+							"value": 6328
+						}
+					]
+				},
+				{
+					"name": "Restaurant",
+					"children": [
+						{
+							"name": "Delivery or virtual/n93.0%",
+							"value": 7365
+						},
+						{
+							"name": "No delivery or virtual/n7.0%",
+							"value": 514
+						}
+					]
+				},
+				{
+					"name": "Services",
+					"children": [
+						{
+							"name": "Delivery or virtual/n4.0%",
+							"value": 810
+						},
+						{
+							"name": "No delivery or virtual/n96.0%",
+							"value": 21284
+						}
+					]
+				},
+				{
+					"name": "Shopping",
+					"children": [
+						{
+							"name": "Delivery or virtual/n27.0%",
+							"value": 1504
+						},
+						{
+							"name": "No delivery or virtual/n73.0%",
+							"value": 4148
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "NC",
+			"children": [
+				{
+					"name": "Health",
+					"children": [
+						{
+							"name": "Delivery or virtual/n6.0%",
+							"value": 77
+						},
+						{
+							"name": "No delivery or virtual/n94.0%",
+							"value": 1268
+						}
+					]
+				},
+				{
+					"name": "Other",
+					"children": [
+						{
+							"name": "Delivery or virtual/n0.0%",
+							"value": 7
+						},
+						{
+							"name": "No delivery or virtual/n100.0%",
+							"value": 1932
+						}
+					]
+				},
+				{
+					"name": "Restaurant",
+					"children": [
+						{
+							"name": "Delivery or virtual/n94.0%",
+							"value": 3124
+						},
+						{
+							"name": "No delivery or virtual/n6.0%",
+							"value": 193
+						}
+					]
+				},
+				{
+					"name": "Services",
+					"children": [
+						{
+							"name": "Delivery or virtual/n5.0%",
+							"value": 239
+						},
+						{
+							"name": "No delivery or virtual/n95.0%",
+							"value": 4607
+						}
+					]
+				},
+				{
+					"name": "Shopping",
+					"children": [
+						{
+							"name": "Delivery or virtual/n31.0%",
+							"value": 632
+						},
+						{
+							"name": "No delivery or virtual/n69.0%",
+							"value": 1409
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "NV",
+			"children": [
+				{
+					"name": "Health",
+					"children": [
+						{
+							"name": "Delivery or virtual/n3.0%",
+							"value": 114
+						},
+						{
+							"name": "No delivery or virtual/n97.0%",
+							"value": 4046
+						}
+					]
+				},
+				{
+					"name": "Other",
+					"children": [
+						{
+							"name": "Delivery or virtual/n0.0%",
+							"value": 16
+						},
+						{
+							"name": "No delivery or virtual/n100.0%",
+							"value": 4550
+						}
+					]
+				},
+				{
+					"name": "Restaurant",
+					"children": [
+						{
+							"name": "Delivery or virtual/n91.0%",
+							"value": 4839
+						},
+						{
+							"name": "No delivery or virtual/n9.0%",
+							"value": 485
+						}
+					]
+				},
+				{
+					"name": "Services",
+					"children": [
+						{
+							"name": "Delivery or virtual/n4.0%",
+							"value": 472
+						},
+						{
+							"name": "No delivery or virtual/n96.0%",
+							"value": 12728
+						}
+					]
+				},
+				{
+					"name": "Shopping",
+					"children": [
+						{
+							"name": "Delivery or virtual/n25.0%",
+							"value": 1009
+						},
+						{
+							"name": "No delivery or virtual/n75.0%",
+							"value": 3033
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "OH",
+			"children": [
+				{
+					"name": "Health",
+					"children": [
+						{
+							"name": "Delivery or virtual/n10.0%",
+							"value": 102
+						},
+						{
+							"name": "No delivery or virtual/n90.0%",
+							"value": 900
+						}
+					]
+				},
+				{
+					"name": "Other",
+					"children": [
+						{
+							"name": "Delivery or virtual/n1.0%",
+							"value": 28
+						},
+						{
+							"name": "No delivery or virtual/n99.0%",
+							"value": 2004
+						}
+					]
+				},
+				{
+					"name": "Restaurant",
+					"children": [
+						{
+							"name": "Delivery or virtual/n93.0%",
+							"value": 4045
+						},
+						{
+							"name": "No delivery or virtual/n7.0%",
+							"value": 304
+						}
+					]
+				},
+				{
+					"name": "Services",
+					"children": [
+						{
+							"name": "Delivery or virtual/n5.0%",
+							"value": 211
+						},
+						{
+							"name": "No delivery or virtual/n95.0%",
+							"value": 4050
+						}
+					]
+				},
+				{
+					"name": "Shopping",
+					"children": [
+						{
+							"name": "Delivery or virtual/n31.0%",
+							"value": 650
+						},
+						{
+							"name": "No delivery or virtual/n69.0%",
+							"value": 1478
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "ON",
+			"children": [
+				{
+					"name": "Health",
+					"children": [
+						{
+							"name": "Delivery or virtual/n4.0%",
+							"value": 74
+						},
+						{
+							"name": "No delivery or virtual/n96.0%",
+							"value": 1783
+						}
+					]
+				},
+				{
+					"name": "Other",
+					"children": [
+						{
+							"name": "Delivery or virtual/n1.0%",
+							"value": 38
+						},
+						{
+							"name": "No delivery or virtual/n99.0%",
+							"value": 4064
+						}
+					]
+				},
+				{
+					"name": "Restaurant",
+					"children": [
+						{
+							"name": "Delivery or virtual/n87.0%",
+							"value": 9624
+						},
+						{
+							"name": "No delivery or virtual/n13.0%",
+							"value": 1463
+						}
+					]
+				},
+				{
+					"name": "Services",
+					"children": [
+						{
+							"name": "Delivery or virtual/n3.0%",
+							"value": 163
+						},
+						{
+							"name": "No delivery or virtual/n97.0%",
+							"value": 5644
+						}
+					]
+				},
+				{
+					"name": "Shopping",
+					"children": [
+						{
+							"name": "Delivery or virtual/n34.0%",
+							"value": 1919
+						},
+						{
+							"name": "No delivery or virtual/n66.0%",
+							"value": 3673
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "PA",
+			"children": [
+				{
+					"name": "Health",
+					"children": [
+						{
+							"name": "Delivery or virtual/n3.0%",
+							"value": 25
+						},
+						{
+							"name": "No delivery or virtual/n97.0%",
+							"value": 776
+						}
+					]
+				},
+				{
+					"name": "Other",
+					"children": [
+						{
+							"name": "Delivery or virtual/n1.0%",
+							"value": 18
+						},
+						{
+							"name": "No delivery or virtual/n99.0%",
+							"value": 1476
+						}
+					]
+				},
+				{
+					"name": "Restaurant",
+					"children": [
+						{
+							"name": "Delivery or virtual/n92.0%",
+							"value": 2780
+						},
+						{
+							"name": "No delivery or virtual/n8.0%",
+							"value": 232
+						}
+					]
+				},
+				{
+					"name": "Services",
+					"children": [
+						{
+							"name": "Delivery or virtual/n5.0%",
+							"value": 147
+						},
+						{
+							"name": "No delivery or virtual/n95.0%",
+							"value": 3046
+						}
+					]
+				},
+				{
+					"name": "Shopping",
+					"children": [
+						{
+							"name": "Delivery or virtual/n33.0%",
+							"value": 572
+						},
+						{
+							"name": "No delivery or virtual/n67.0%",
+							"value": 1148
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "QC",
+			"children": [
+				{
+					"name": "Health",
+					"children": [
+						{
+							"name": "Delivery or virtual/n6.0%",
+							"value": 14
+						},
+						{
+							"name": "No delivery or virtual/n94.0%",
+							"value": 217
+						}
+					]
+				},
+				{
+					"name": "Other",
+					"children": [
+						{
+							"name": "Delivery or virtual/n0.0%",
+							"value": 3
+						},
+						{
+							"name": "No delivery or virtual/n100.0%",
+							"value": 957
+						}
+					]
+				},
+				{
+					"name": "Restaurant",
+					"children": [
+						{
+							"name": "Delivery or virtual/n72.0%",
+							"value": 3374
+						},
+						{
+							"name": "No delivery or virtual/n28.0%",
+							"value": 1304
+						}
+					]
+				},
+				{
+					"name": "Services",
+					"children": [
+						{
+							"name": "Delivery or virtual/n5.0%",
+							"value": 47
+						},
+						{
+							"name": "No delivery or virtual/n95.0%",
+							"value": 853
+						}
+					]
+				},
+				{
+					"name": "Shopping",
+					"children": [
+						{
+							"name": "Delivery or virtual/n38.0%",
+							"value": 548
+						},
+						{
+							"name": "No delivery or virtual/n62.0%",
+							"value": 898
+						}
+					]
+				}
+			]
+		}
+	]
+}
