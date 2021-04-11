@@ -2,21 +2,8 @@
 	"name": "State / Province",
 	"children": [
 		{
-			"name": "AZ",
+			"name": "Arizona",
 			"children": [
-				{
-					"name": "Health",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 187
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 7421
-						}
-					]
-				},
 				{
 					"name": "Other",
 					"children": [
@@ -26,7 +13,7 @@
 						},
 						{
 							"name": "No delivery or virtual",
-							"value": 6328
+							"value": 12442
 						}
 					]
 				},
@@ -48,11 +35,11 @@
 					"children": [
 						{
 							"name": "Delivery or virtual",
-							"value": 810
+							"value": 822
 						},
 						{
 							"name": "No delivery or virtual",
-							"value": 21284
+							"value": 22023
 						}
 					]
 				},
@@ -61,32 +48,19 @@
 					"children": [
 						{
 							"name": "Delivery or virtual",
-							"value": 1504
+							"value": 1679
 						},
 						{
 							"name": "No delivery or virtual",
-							"value": 4148
+							"value": 4716
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "NC",
+			"name": "North Carolina",
 			"children": [
-				{
-					"name": "Health",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 77
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 1268
-						}
-					]
-				},
 				{
 					"name": "Other",
 					"children": [
@@ -96,7 +70,7 @@
 						},
 						{
 							"name": "No delivery or virtual",
-							"value": 1932
+							"value": 2970
 						}
 					]
 				},
@@ -118,11 +92,11 @@
 					"children": [
 						{
 							"name": "Delivery or virtual",
-							"value": 239
+							"value": 241
 						},
 						{
 							"name": "No delivery or virtual",
-							"value": 4607
+							"value": 4693
 						}
 					]
 				},
@@ -131,42 +105,29 @@
 					"children": [
 						{
 							"name": "Delivery or virtual",
-							"value": 632
+							"value": 707
 						},
 						{
 							"name": "No delivery or virtual",
-							"value": 1409
+							"value": 1553
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "NV",
+			"name": "Nevada",
 			"children": [
-				{
-					"name": "Health",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 114
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 4046
-						}
-					]
-				},
 				{
 					"name": "Other",
 					"children": [
 						{
 							"name": "Delivery or virtual",
-							"value": 16
+							"value": 19
 						},
 						{
 							"name": "No delivery or virtual",
-							"value": 4550
+							"value": 7848
 						}
 					]
 				},
@@ -188,11 +149,11 @@
 					"children": [
 						{
 							"name": "Delivery or virtual",
-							"value": 472
+							"value": 488
 						},
 						{
 							"name": "No delivery or virtual",
-							"value": 12728
+							"value": 13128
 						}
 					]
 				},
@@ -201,32 +162,19 @@
 					"children": [
 						{
 							"name": "Delivery or virtual",
-							"value": 1009
+							"value": 1104
 						},
 						{
 							"name": "No delivery or virtual",
-							"value": 3033
+							"value": 3381
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "OH",
+			"name": "Ohio",
 			"children": [
-				{
-					"name": "Health",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 102
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 900
-						}
-					]
-				},
 				{
 					"name": "Other",
 					"children": [
@@ -236,7 +184,7 @@
 						},
 						{
 							"name": "No delivery or virtual",
-							"value": 2004
+							"value": 2704
 						}
 					]
 				},
@@ -258,11 +206,11 @@
 					"children": [
 						{
 							"name": "Delivery or virtual",
-							"value": 211
+							"value": 216
 						},
 						{
 							"name": "No delivery or virtual",
-							"value": 4050
+							"value": 4120
 						}
 					]
 				},
@@ -271,42 +219,29 @@
 					"children": [
 						{
 							"name": "Delivery or virtual",
-							"value": 650
+							"value": 747
 						},
 						{
 							"name": "No delivery or virtual",
-							"value": 1478
+							"value": 1608
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "ON",
+			"name": "Ontario",
 			"children": [
-				{
-					"name": "Health",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 74
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 1783
-						}
-					]
-				},
 				{
 					"name": "Other",
 					"children": [
 						{
 							"name": "Delivery or virtual",
-							"value": 38
+							"value": 39
 						},
 						{
 							"name": "No delivery or virtual",
-							"value": 4064
+							"value": 5454
 						}
 					]
 				},
@@ -328,11 +263,11 @@
 					"children": [
 						{
 							"name": "Delivery or virtual",
-							"value": 163
+							"value": 169
 						},
 						{
 							"name": "No delivery or virtual",
-							"value": 5644
+							"value": 5736
 						}
 					]
 				},
@@ -341,42 +276,29 @@
 					"children": [
 						{
 							"name": "Delivery or virtual",
-							"value": 1919
+							"value": 1986
 						},
 						{
 							"name": "No delivery or virtual",
-							"value": 3673
+							"value": 3974
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "PA",
+			"name": "Pennsylvania",
 			"children": [
-				{
-					"name": "Health",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 25
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 776
-						}
-					]
-				},
 				{
 					"name": "Other",
 					"children": [
 						{
 							"name": "Delivery or virtual",
-							"value": 18
+							"value": 19
 						},
 						{
 							"name": "No delivery or virtual",
-							"value": 1476
+							"value": 2078
 						}
 					]
 				},
@@ -398,11 +320,11 @@
 					"children": [
 						{
 							"name": "Delivery or virtual",
-							"value": 147
+							"value": 152
 						},
 						{
 							"name": "No delivery or virtual",
-							"value": 3046
+							"value": 3108
 						}
 					]
 				},
@@ -411,32 +333,19 @@
 					"children": [
 						{
 							"name": "Delivery or virtual",
-							"value": 572
+							"value": 591
 						},
 						{
 							"name": "No delivery or virtual",
-							"value": 1148
+							"value": 1260
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "QC",
+			"name": "Quebec",
 			"children": [
-				{
-					"name": "Health",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 14
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 217
-						}
-					]
-				},
 				{
 					"name": "Other",
 					"children": [
@@ -446,7 +355,7 @@
 						},
 						{
 							"name": "No delivery or virtual",
-							"value": 957
+							"value": 1099
 						}
 					]
 				},
@@ -472,7 +381,7 @@
 						},
 						{
 							"name": "No delivery or virtual",
-							"value": 853
+							"value": 859
 						}
 					]
 				},
@@ -481,11 +390,11 @@
 					"children": [
 						{
 							"name": "Delivery or virtual",
-							"value": 548
+							"value": 562
 						},
 						{
 							"name": "No delivery or virtual",
-							"value": 898
+							"value": 967
 						}
 					]
 				}
