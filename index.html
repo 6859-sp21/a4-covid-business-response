@@ -229,9 +229,10 @@ Sunburst diagram inspired by <a href="https://bl.ocks.org/vasturiano/12da9071095
                 .attr('startOffset','50%')
                 .attr('xlink:href', (_, i) => `#hiddenArc${i}` )
                 .text(d => d.data.name);
+				
         });
 		
-		var allStates = ['Health',' Restaurant', 'Services', 'Shopping', 'Other']
+		var allStates = ['Restaurant', 'Services', 'Shopping', 'Other']
 		  d3.select("#selectButton")
 			.selectAll('myOptions')
 			.data(allStates)
@@ -297,9 +298,10 @@ Sunburst diagram inspired by <a href="https://bl.ocks.org/vasturiano/12da9071095
                 }
             });
 		}
+	// TODO: Delete
 	function updateSunburst(){
-	var temp = 1;
 	}
+	
 	var selectButton = d3.select("#selectButton")
     .on('change', function(d) {
         selectedMessages = Array.from(this.options)
@@ -307,4 +309,8 @@ Sunburst diagram inspired by <a href="https://bl.ocks.org/vasturiano/12da9071095
           .map(function(option) { return option.value; });
        updateSunburst();
      });
+	 
+	// Add Overall to default state
+	const levelEl = document.getElementById('all');
+	levelEl.classList.add("current-level");
     </script>
