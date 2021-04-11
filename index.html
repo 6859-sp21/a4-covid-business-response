@@ -170,10 +170,17 @@ Sunburst diagram inspired by <a href="https://bl.ocks.org/vasturiano/12da9071095
                 }).on("mouseover", function(d) {		
 					div.transition()		
 						.duration(200)		
-						.style("opacity", .9);		
+						.style("opacity", .9);
+                    if (d.depth < 3) {						
 					div.html(d.data.name)	
 						.style("left", (d3.event.pageX + 28) + "px")		
 						.style("top", (d3.event.pageY) + "px");	
+						}
+					else {				
+					div.html(d.data.name + ": " + d.data.value + " businesses")	
+						.style("left", (d3.event.pageX + 28) + "px")		
+						.style("top", (d3.event.pageY) + "px");		
+					}
 					})					
 				.on("mouseout", function(d) {		
 					div.transition()		
