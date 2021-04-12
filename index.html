@@ -75,9 +75,9 @@
                     <div class="card-header">Current displayed level</div>
                         <ul style="list-style-type:none;">
                             <li id = "all">Overall</li>
-                            <li id = "state">State</li>
-                            <li id = "type">Business Type</li>
-                            <li id = "dov">Delivery or virtual?</li>
+                            <li id = "state">State / Region <span id = "selected-state"></span></li>
+                            <li id = "type">Business Type <span id = "selected-type"></span></li>
+                            <li id = "dov">Delivery or virtual? <span id = "selected-dov"></span></li>
                         </ul>
                 </div>
 
@@ -86,7 +86,7 @@
 				<br> <b> Light outer colors</b> correspond to the count of businesses <u>without</u> delivery or virtual services. <br> <b>Dark outer colors</b> represent businesses <u>with</u> delivery or virtual services.
 		        <br><br>
                 <small>
-                    Source: Yelp (March 2020); The Yelp dataset is an academic sample across States / Businesses (filtered for states with at least 10k businesses).
+                    Source: Yelp (March 2020); The Yelp dataset is an academic sample across States / Regions / Businesses (filtered for states with at least 10k businesses).
 
                     <br>
                     Sunburst diagram inspired by <a href="https://bl.ocks.org/vasturiano/12da9071095fbd4df434e60d52d2d58d">Vasco Asturiano </a>
@@ -321,8 +321,27 @@
                     levelEl.classList.add("current-level");
                 } else if ( level.depth < currentDepth ) {
                     levelEl.classList.add("not-in-view")
+                } else if ( level.dept > currentDepth ) {
+
                 }
             });
+
+            document.getElementById("selected-state").innerText = "";
+            document.getElementById("selected-type").innerText = "";
+            document.getElementById("selected-dov").innerText = "";
+
+            if ( d.data ) {
+                let currLevel;
+                let currEl; 
+                let curr = d;
+
+                while ( curr.depth > 0 ) {
+                    currLevel = levels.find(level => level.depth === curr.depth);
+                    currEl = document.getElementById("selected-" + currLevel.id);
+                    currEl.innerText = `- ${curr.data.name === "No delivery or virtual" ? "No" : (curr.data.name === "Delivery or virtual" ? "Yes" : curr.data.name)}`;
+                    curr = curr.parent;
+                }
+            }
 		}
 	 
 	// Add Overall to default state
