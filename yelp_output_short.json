@@ -1,404 +1,460 @@
 {
 	"name": "State / Province",
 	"children": [
-		{
-			"name": "Arizona",
+	  {
+		"name": "Arizona",
+		"children": [
+		  {
+			"name": "Other",
 			"children": [
-				{
-					"name": "Other",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 38
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 12442
-						}
-					]
-				},
-				{
-					"name": "Restaurant",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 7365
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 514
-						}
-					]
-				},
-				{
-					"name": "Services",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 822
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 22023
-						}
-					]
-				},
-				{
-					"name": "Shopping",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 1679
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 4716
-						}
-					]
-				}
+			  {
+				"name": "Delivery or virtual",
+				"value": 38,
+				"total_stars": 139
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 12442,
+				"total_stars": 4807.5
+			  }
 			]
-		},
-		{
-			"name": "North Carolina",
+		  },
+		  {
+			"name": "Restaurant",
 			"children": [
-				{
-					"name": "Other",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 7
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 2970
-						}
-					]
-				},
-				{
-					"name": "Restaurant",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 3124
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 193
-						}
-					]
-				},
-				{
-					"name": "Services",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 241
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 4693
-						}
-					]
-				},
-				{
-					"name": "Shopping",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 707
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 1553
-						}
-					]
-				}
+			  {
+				"name": "Delivery or virtual",
+				"value": 7365,
+				"total_stars": 25184.5
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 514,
+				"total_stars": 1851.5
+			  }
 			]
-		},
-		{
-			"name": "Nevada",
+		  },
+		  {
+			"name": "Services",
 			"children": [
-				{
-					"name": "Other",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 19
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 7848
-						}
-					]
-				},
-				{
-					"name": "Restaurant",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 4839
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 485
-						}
-					]
-				},
-				{
-					"name": "Services",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 488
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 13128
-						}
-					]
-				},
-				{
-					"name": "Shopping",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 1104
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 3381
-						}
-					]
-				}
+			  {
+				"name": "Delivery or virtual",
+				"value": 822,
+				"total_stars": 2682.5
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 22023,
+				"total_stars": 81813.5
+			  }
 			]
-		},
-		{
-			"name": "Ohio",
+		  },
+		  {
+			"name": "Shopping",
 			"children": [
-				{
-					"name": "Other",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 28
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 2704
-						}
-					]
-				},
-				{
-					"name": "Restaurant",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 4045
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 304
-						}
-					]
-				},
-				{
-					"name": "Services",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 216
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 4120
-						}
-					]
-				},
-				{
-					"name": "Shopping",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 747
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 1608
-						}
-					]
-				}
+			  {
+				"name": "Delivery or virtual",
+				"value": 1679,
+				"total_stars": 5973
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 4716,
+				"total_stars": 17190.5
+			  }
 			]
-		},
-		{
-			"name": "Ontario",
+		  }
+		]
+	  },
+	  {
+		"name": "North Carolina",
+		"children": [
+		  {
+			"name": "Other",
 			"children": [
-				{
-					"name": "Other",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 39
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 5454
-						}
-					]
-				},
-				{
-					"name": "Restaurant",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 9624
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 1463
-						}
-					]
-				},
-				{
-					"name": "Services",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 169
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 5736
-						}
-					]
-				},
-				{
-					"name": "Shopping",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 1986
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 3974
-						}
-					]
-				}
+			  {
+				"name": "Delivery or virtual",
+				"value": 7,
+				"total_stars": 29
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 2970,
+				"total_stars": 11028.5
+			  }
 			]
-		},
-		{
-			"name": "Pennsylvania",
+		  },
+		  {
+			"name": "Restaurant",
 			"children": [
-				{
-					"name": "Other",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 19
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 2078
-						}
-					]
-				},
-				{
-					"name": "Restaurant",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 2780
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 232
-						}
-					]
-				},
-				{
-					"name": "Services",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 152
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 3108
-						}
-					]
-				},
-				{
-					"name": "Shopping",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 591
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 1260
-						}
-					]
-				}
+			  {
+				"name": "Delivery or virtual",
+				"value": 3124,
+				"total_stars": 10496
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 193,
+				"total_stars": 702.5
+			  }
 			]
-		},
-		{
-			"name": "Quebec",
+		  },
+		  {
+			"name": "Services",
 			"children": [
-				{
-					"name": "Other",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 3
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 1099
-						}
-					]
-				},
-				{
-					"name": "Restaurant",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 3374
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 1304
-						}
-					]
-				},
-				{
-					"name": "Services",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 47
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 859
-						}
-					]
-				},
-				{
-					"name": "Shopping",
-					"children": [
-						{
-							"name": "Delivery or virtual",
-							"value": 562
-						},
-						{
-							"name": "No delivery or virtual",
-							"value": 967
-						}
-					]
-				}
+			  {
+				"name": "Delivery or virtual",
+				"value": 241,
+				"total_stars": 806.5
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 4693,
+				"total_stars": 16122.5
+			  }
 			]
-		}
+		  },
+		  {
+			"name": "Shopping",
+			"children": [
+			  {
+				"name": "Delivery or virtual",
+				"value": 707,
+				"total_stars": 2562.5
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 1553,
+				"total_stars": 5561
+			  }
+			]
+		  }
+		]
+	  },
+	  {
+		"name": "Nevada",
+		"children": [
+		  {
+			"name": "Other",
+			"children": [
+			  {
+				"name": "Delivery or virtual",
+				"value": 19,
+				"total_stars": 68.5
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 7848,
+				"total_stars": 29704
+			  }
+			]
+		  },
+		  {
+			"name": "Restaurant",
+			"children": [
+			  {
+				"name": "Delivery or virtual",
+				"value": 4839,
+				"total_stars": 16814.5
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 485,
+				"total_stars": 1752.5
+			  }
+			]
+		  },
+		  {
+			"name": "Services",
+			"children": [
+			  {
+				"name": "Delivery or virtual",
+				"value": 488,
+				"total_stars": 1646.5
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 13128,
+				"total_stars": 49028.5
+			  }
+			]
+		  },
+		  {
+			"name": "Shopping",
+			"children": [
+			  {
+				"name": "Delivery or virtual",
+				"value": 1104,
+				"total_stars": 3862.5
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 3381,
+				"total_stars": 12350
+			  }
+			]
+		  }
+		]
+	  },
+	  {
+		"name": "Ohio",
+		"children": [
+		  {
+			"name": "Other",
+			"children": [
+			  {
+				"name": "Delivery or virtual",
+				"value": 28,
+				"total_stars": 97.5
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 2704,
+				"total_stars": 9793.5
+			  }
+			]
+		  },
+		  {
+			"name": "Restaurant",
+			"children": [
+			  {
+				"name": "Delivery or virtual",
+				"value": 4045,
+				"total_stars": 13722.5
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 304,
+				"total_stars": 1055.5
+			  }
+			]
+		  },
+		  {
+			"name": "Services",
+			"children": [
+			  {
+				"name": "Delivery or virtual",
+				"value": 216,
+				"total_stars": 715.5
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 4120,
+				"total_stars": 13889.5
+			  }
+			]
+		  },
+		  {
+			"name": "Shopping",
+			"children": [
+			  {
+				"name": "Delivery or virtual",
+				"value": 747,
+				"total_stars": 2753.5
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 1608,
+				"total_stars": 5889
+			  }
+			]
+		  }
+		]
+	  },
+	  {
+		"name": "Ontario",
+		"children": [
+		  {
+			"name": "Other",
+			"children": [
+			  {
+				"name": "Delivery or virtual",
+				"value": 39,
+				"total_stars": 129.5
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 5454,
+				"total_stars": 18351.5
+			  }
+			]
+		  },
+		  {
+			"name": "Restaurant",
+			"children": [
+			  {
+				"name": "Delivery or virtual",
+				"value": 9624,
+				"total_stars": 32660
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 1463,
+				"total_stars": 5027.5
+			  }
+			]
+		  },
+		  {
+			"name": "Services",
+			"children": [
+			  {
+				"name": "Delivery or virtual",
+				"value": 169,
+				"total_stars": 621.5
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 5736,
+				"total_stars": 17840
+			  }
+			]
+		  },
+		  {
+			"name": "Shopping",
+			"children": [
+			  {
+				"name": "Delivery or virtual",
+				"value": 1986,
+				"total_stars": 7071.5
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 3974,
+				"total_stars": 12839
+			  }
+			]
+		  }
+		]
+	  },
+	  {
+		"name": "Pennsylvania",
+		"children": [
+		  {
+			"name": "Other",
+			"children": [
+			  {
+				"name": "Delivery or virtual",
+				"value": 19,
+				"total_stars": 74
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 2078,
+				"total_stars": 7712.5
+			  }
+			]
+		  },
+		  {
+			"name": "Restaurant",
+			"children": [
+			  {
+				"name": "Delivery or virtual",
+				"value": 2780,
+				"total_stars": 9748
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 232,
+				"total_stars": 824.5
+			  }
+			]
+		  },
+		  {
+			"name": "Services",
+			"children": [
+			  {
+				"name": "Delivery or virtual",
+				"value": 152,
+				"total_stars": 512.5
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 3108,
+				"total_stars": 10737.5
+			  }
+			]
+		  },
+		  {
+			"name": "Shopping",
+			"children": [
+			  {
+				"name": "Delivery or virtual",
+				"value": 591,
+				"total_stars": 2226
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 1260,
+				"total_stars": 4613.5
+			  }
+			]
+		  }
+		]
+	  },
+	  {
+		"name": "Quebec",
+		"children": [
+		  {
+			"name": "Other",
+			"children": [
+			  {
+				"name": "Delivery or virtual",
+				"value": 3,
+				"total_stars": 11.5
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 1099,
+				"total_stars": 3910.5
+			  }
+			]
+		  },
+		  {
+			"name": "Restaurant",
+			"children": [
+			  {
+				"name": "Delivery or virtual",
+				"value": 3374,
+				"total_stars": 12391.5
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 1304,
+				"total_stars": 4799
+			  }
+			]
+		  },
+		  {
+			"name": "Services",
+			"children": [
+			  {
+				"name": "Delivery or virtual",
+				"value": 47,
+				"total_stars": 175.5
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 859,
+				"total_stars": 2771.5
+			  }
+			]
+		  },
+		  {
+			"name": "Shopping",
+			"children": [
+			  {
+				"name": "Delivery or virtual",
+				"value": 562,
+				"total_stars": 2204
+			  },
+			  {
+				"name": "No delivery or virtual",
+				"value": 967,
+				"total_stars": 3546.5
+			  }
+			]
+		  }
+		]
+	  }
 	]
-}
+  }
