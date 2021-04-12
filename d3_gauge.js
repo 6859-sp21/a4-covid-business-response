@@ -109,7 +109,7 @@ var barWidth, chart, chartInset, degToRad, repaintGauge,
     };
 
     Needle.prototype.moveTo = function(stars) {
-      const perc = stars / 5;
+      const perc = (stars / 5 - 0.4) * 2;
 
       var hue = ((1-(1-perc))*120).toString(10);
       const color = ["hsl(",hue,",100%,50%)"].join("");

@@ -64,7 +64,7 @@
     <div class="row">
 		<div class="col-4">
 			<img src="yelp_logo.jpg" alt="Yelp Logo">
-				<h2 style = "vertical-align:middle;"> Business Response to the COVID-19 Pandemic (March 2020)</h2>
+				<h3 style = "vertical-align:middle;"> Business Response to the COVID-19 Pandemic (March 2020)</h3>
 
                 <div class = "w-100 text-center">
                     <div id="chart-gauge">
@@ -80,24 +80,20 @@
                             <li id = "dov">Delivery or virtual?</li>
                         </ul>
                 </div>
-				<br>
 
-				<i> Click on the chart to zoom in or out. Click on the center to go back. </i>
+				<i> Click on the chart to zoom in. Click on the center to go back. </i>
 				<br>
-				<br> <b> Light outer colors</b> correspond to the count of businesses without delivery or virtual services. <br> <b>Darker outer colors</b> represent businesses with delivery or virtual services.
+				<br> <b> Light outer colors</b> correspond to the count of businesses <u>without</u> delivery or virtual services. <br> <b>Dark outer colors</b> represent businesses <u>with</u> delivery or virtual services.
 		        <br><br>
                 <small>
-                    For MIT 6.859
-                    <br>
-                    Source: Yelp (March 2020);
-                    <br> The Yelp dataset is an academic sample across States / Businesses (filtered for states with at least 10k businesses).
+                    Source: Yelp (March 2020); The Yelp dataset is an academic sample across States / Businesses (filtered for states with at least 10k businesses).
 
                     <br>
                     Sunburst diagram inspired by <a href="https://bl.ocks.org/vasturiano/12da9071095fbd4df434e60d52d2d58d">Vasco Asturiano </a>
                 </small>
                 <br>
                 <br>
-                <small>By Felix Dumont and Taylor Facen </small>
+                <small>By Felix Dumont and Taylor Facen (MIT 6.859)</small>
 	    </div>
         <div class="col-8">
             <div id="container-graph"></div>
@@ -108,7 +104,7 @@
 </body>
 <script type="text/javascript" src="d3_gauge.js"></script>
 <script>
-	// Source: https://bl.ocks.org/vasturiano/12da9071095fbd4df434e60d52d2d58d
+		// Source: https://bl.ocks.org/vasturiano/12da9071095fbd4df434e60d52d2d58d
         const width = window.innerWidth,
             height = window.innerHeight,
             maxRadius = (Math.min(width, height) / 2) - 5;
@@ -121,8 +117,6 @@
 
         const y = d3.scaleLinear()
             .range([maxRadius*.1, maxRadius]);
-
-        //const color = d3.scaleOrdinal(d3.schemeCategory20c); // Schemes: http://bl.ocks.org/emmasaunders/f4902478bcfa411c77a412c02087bed4
 
         const partition = d3.partition();
 
@@ -165,8 +159,8 @@
         };
 
         const svg = d3.select('#container-graph').append('svg')
-            .style('width', '75vw')
-            .style('height', '75vh')
+            .style('width', '90vw')
+            .style('height', '90vh')
             .style("font", "12px sans-serif")
             .attr('viewBox', `${-width / 3} ${-height / 2} ${width} ${height}`)
             .on('click', () => focusOn()); // Reset zoom on canvas click
@@ -215,10 +209,7 @@
 						.duration(200)		
 						.style("opacity", 0);	
 				});;
-				
-           // newSlice.append('title')
-           //     .text(d => d.data.name + '\n' + formatNumber(d.value));
-		   
+
 		    const color = d3.scaleOrdinal().range(d3.quantize(d3.interpolateRainbow, nodeData.children.length + 1));
 
             newSlice.append('path')
@@ -313,7 +304,7 @@
                     })
             }
         
-		            // Style legend
+		     // Style legend
             const currentDepth = d.depth || 0;
             const levels = [
                 { id: "all", depth: 0 },
@@ -333,17 +324,6 @@
                 }
             });
 		}
-	// TODO: Delete
-	function updateSunburst(){
-	}
-	
-	var selectButton = d3.select("#selectButton")
-    .on('change', function(d) {
-        selectedMessages = Array.from(this.options)
-          .filter(function(option) { return option.selected })
-          .map(function(option) { return option.value; });
-       updateSunburst();
-     });
 	 
 	// Add Overall to default state
 	const levelEl = document.getElementById('all');
